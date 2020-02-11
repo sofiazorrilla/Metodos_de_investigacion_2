@@ -1,0 +1,252 @@
+226	22	0	1	2	1																
+0																					
+ind	cat	hap																			
+qhu001	viro	1																			
+qhu002	viro	1																			
+qhu003	viro	2																			
+qhu004	viro	2																			
+qhu005	viro	2																			
+qhu006	viro	2																			
+qhu007	viro	2																			
+qhu008	viro	2																			
+qhu009	viro	2																			
+qhu010	viro	2																			
+qhu011	vile	2																			
+qhu012	vile	2																			
+qhu013	vile	2																			
+qhu014	vile	2																			
+qhu015	vile	2																			
+qhu016	vile	2																			
+qhu017	vile	2																			
+qhu018	vile	2																			
+qhu019	vile	2																			
+qhu020	vile	2																			
+qhu021	vile	2																			
+qhu022	guac	2																			
+qhu023	guac	2																			
+qhu024	guac	2																			
+qhu025	guac	2																			
+qhu026	guac	2																			
+qhu027	guac	2																			
+qhu028	guac	2																			
+qhu029	guac	2																			
+qhu030	guac	2																			
+qhu031	guac	2																			
+qhu032	amal	2																			
+qhu033	amal	2																			
+qhu034	amal	2																			
+qhu035	amal	2																			
+qhu036	amal	2																			
+qhu037	amal	2																			
+qhu038	amal	2																			
+qhu039	amal	2																			
+qhu040	amal	2																			
+qhu041	amal	2																			
+qhu042	caro	2																			
+qhu043	caro	2																			
+qhu044	caro	2																			
+qhu045	caro	2																			
+qhu046	caro	2																			
+qhu047	caro	2																			
+qhu048	caro	2																			
+qhu049	caro	2																			
+qhu050	caro	2																			
+qhu051	caro	2																			
+qhu052	pieb	2																			
+qhu053	pieb	2																			
+qhu054	pieb	2																			
+qhu055	pieb	2																			
+qhu056	pieb	2																			
+qhu057	pieb	2																			
+qhu058	pieb	2																			
+qhu059	pieb	2																			
+qhu060	pieb	2																			
+qhu061	pieb	2																			
+qhu062	pieb	2																			
+qhu063	yaru	2																			
+qhu064	yaru	2																			
+qhu065	yaru	2																			
+qhu066	yaru	2																			
+qhu067	yaru	2																			
+qhu068	yaru	2																			
+qhu069	yaru	2																			
+qhu070	yaru	2																			
+qhu071	salb	2																			
+qhu072	salb	2																			
+qhu073	salb	2																			
+qhu074	salb	2																			
+qhu075	salb	2																			
+qhu076	salb	2																			
+qhu077	salb	2																			
+qhu078	salb	2																			
+qhu079	salb	2																			
+qhu080	salb	2																			
+qhu081	sala	2																			
+qhu082	sala	2																			
+qhu083	sala	2																			
+qhu084	sala	2																			
+qhu085	sala	2																			
+qhu086	sala	2																			
+qhu087	sala	2																			
+qhu088	sala	2																			
+qhu089	sala	2																			
+qhu090	sala	2																			
+qhu091	sala	2																			
+qhu092	sala	2																			
+qhu093	sala	2																			
+qhu094	cala	2																			
+qhu095	cala	2																			
+qhu096	cala	2																			
+qhu097	cala	2																			
+qhu098	cala	2																			
+qhu099	cala	2																			
+qhu100	cala	2																			
+qhu101	cala	2																			
+qhu102	cara	2																			
+qhu103	cara	2																			
+qhu104	cara	2																			
+qhu105	cara	2																			
+qhu106	cara	2																			
+qhu107	cara	2																			
+qhu108	cara	2																			
+qhu109	cara	2																			
+qhu110	cara	2																			
+qhu111	cara	2																			
+qhu112	cara	2																			
+qhu113	belm	2																			
+qhu114	belm	2																			
+qhu115	belm	2																			
+qhu116	belm	2																			
+qhu117	belm	2																			
+qhu118	belm	2																			
+qhu119	belm	2																			
+qhu120	belm	2																			
+qhu121	belm	2																			
+qhu122	belm	2																			
+qhu123	pija	2																			
+qhu124	pija	2																			
+qhu125	pija	2																			
+qhu126	pija	2																			
+qhu127	pija	2																			
+qhu128	pija	2																			
+qhu129	pija	2																			
+qhu130	pija	2																			
+qhu131	pija	2																			
+qhu132	pija	2																			
+qhu133	pija	2																			
+qhu134	bele	2																			
+qhu135	bele	2																			
+qhu136	bele	2																			
+qhu137	bele	2																			
+qhu138	bele	2																			
+qhu139	bele	2																			
+qhu140	bele	2																			
+qhu141	bele	2																			
+qhu142	bele	2																			
+qhu143	bele	2																			
+qhu144	bele	2																			
+qhu145	bele	2																			
+qhu146	bele	2																			
+qhu147	jard	2																			
+qhu148	jard	2																			
+qhu149	jard	2																			
+qhu150	jard	2																			
+qhu151	jard	2																			
+qhu152	jard	2																			
+qhu153	jard	2																			
+qhu154	jard	2																			
+qhu155	jard	2																			
+qhu156	urra	2																			
+qhu157	urra	2																			
+qhu158	urra	2																			
+qhu159	urra	2																			
+qhu160	urra	2																			
+qhu161	urra	2																			
+qhu162	urra	2																			
+qhu163	urra	2																			
+qhu164	urra	2																			
+qhu165	urra	2																			
+qhu166	urra	2																			
+qhu167	mens	2																			
+qhu168	mens	2																			
+qhu169	mens	2																			
+qhu170	mens	2																			
+qhu171	mens	2																			
+qhu172	mens	2																			
+qhu173	mens	2																			
+qhu174	mens	2																			
+qhu175	mens	2																			
+qhu176	mens	2																			
+qhu177	fara	2																			
+qhu178	fara	3																			
+qhu179	fara	3																			
+qhu180	fara	3																			
+qhu181	fara	3																			
+qhu182	fara	3																			
+qhu183	fara	3																			
+qhu184	fara	3																			
+qhu185	fara	3																			
+qhu186	fara	3																			
+qhu187	fara	3																			
+qhu188	fara	3																			
+qhu189	lave	3																			
+qhu190	lave	3																			
+qhu191	lave	3																			
+qhu192	lave	3																			
+qhu193	lave	3																			
+qhu194	lave	4																			
+qhu195	lave	5																			
+qhu196	lave	6																			
+qhu197	lave	7																			
+qhu198	lave	8																			
+qhu199	alma	8																			
+qhu200	alma	9																			
+qhu201	alma	9																			
+qhu202	alma	9																			
+qhu203	alma	9																			
+qhu204	alma	9																			
+qhu205	alma	9																			
+qhu206	alma	10																			
+qhu207	alma	10																			
+qhu208	alma	10																			
+qhu209	alma	10																			
+qhu210	cham	10																			
+qhu211	cham	10																			
+qhu212	cham	11																			
+qhu213	cham	12																			
+qhu214	cham	13																			
+qhu215	cham	14																			
+qhu216	chac	15																			
+qhu217	chac	15																			
+qhu218	chac	16																			
+qhu219	chac	17																			
+qhu220	chac	17																			
+qhu221	chac	18																			
+qhu222	chac	18																			
+qhu223	chac	18																			
+qhu224	chac	19																			
+qhu225	chac	20																			
+qhu226	chac	21																			
+END																					
+hap	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21
+1	0	1	5	2	3	2	2	5	1	2	1	2	1	3	2	4	2	5	2	3	3
+2	1	0	5	1	3	1	1	5	1	1	1	1	1	3	2	4	1	5	1	3	2
+3	5	5	0	5	4	5	4	1	5	5	5	5	5	4	5	5	5	1	4	5	5
+4	2	1	5	0	4	2	2	5	2	2	2	2	2	4	3	4	2	5	2	3	1
+5	3	3	4	4	0	3	3	5	3	3	3	3	3	1	2	3	2	4	3	4	3
+6	2	1	5	2	3	0	2	5	2	1	2	1	2	3	3	4	1	5	1	4	2
+7	2	1	4	2	3	2	0	4	2	2	2	2	2	3	2	4	2	5	2	3	3
+8	5	5	1	5	5	5	4	0	5	5	5	5	5	5	5	5	5	2	4	5	5
+9	1	1	5	2	3	2	2	5	0	2	1	2	1	3	2	4	2	5	2	3	3
+10	2	1	5	2	3	1	2	5	2	0	2	1	2	3	3	4	1	5	1	4	2
+11	1	1	5	2	3	2	2	5	1	2	0	2	1	3	2	4	2	5	2	3	3
+12	2	1	5	2	3	1	2	5	2	1	2	0	2	3	3	4	1	5	1	4	2
+13	1	1	5	2	3	2	2	5	1	2	1	2	0	3	2	4	2	5	2	3	3
+14	3	3	4	4	1	3	3	5	3	3	3	3	3	0	2	4	3	4	3	4	4
+15	2	2	5	3	2	3	2	5	2	3	2	3	2	2	0	4	3	5	3	3	4
+16	4	4	5	4	3	4	4	5	4	4	4	4	4	4	4	0	3	5	4	1	3
+17	2	1	5	2	2	1	2	5	2	1	2	1	2	3	3	3	0	5	1	4	1
+18	5	5	1	5	4	5	5	2	5	5	5	5	5	4	5	5	5	0	4	5	5
+19	2	1	4	2	3	1	2	4	2	1	2	1	2	3	3	4	1	4	0	4	2
+20	3	3	5	3	4	4	3	5	3	4	3	4	3	4	3	1	4	5	4	0	4
+21	3	2	5	1	3	2	3	5	3	2	3	2	3	4	4	3	1	5	2	4	0
