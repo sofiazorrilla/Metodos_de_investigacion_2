@@ -398,18 +398,27 @@ alelos en el espacio en la que además los alelos más similares se
 encuentren geográficamente juntos. Esto se hace comparando dos índices
 de diferenciación (Nst y Gst).
 
-\(N_{ST}\)
+![N\_{ST}](https://latex.codecogs.com/png.latex?N_%7BST%7D "N_{ST}")
 
 Se obtiene a partir de buscar la diferencia entre la diversidad total y
 la que está dentro de cada población, dividida por la diversidad total.
 
-\[\frac{v_{T}-v_{S}}{v_{T}}\]
+  
+![\\frac{v\_{T}-v\_{S}}{v\_{T}}](https://latex.codecogs.com/png.latex?%5Cfrac%7Bv_%7BT%7D-v_%7BS%7D%7D%7Bv_%7BT%7D%7D
+"\\frac{v_{T}-v_{S}}{v_{T}}")  
 
-\[N_{ST}=\frac{\sum_{i,j}\pi_{ij}C_{ij}}{v_{T}}\]
+  
+![N\_{ST}=\\frac{\\sum\_{i,j}\\pi\_{ij}C\_{ij}}{v\_{T}}](https://latex.codecogs.com/png.latex?N_%7BST%7D%3D%5Cfrac%7B%5Csum_%7Bi%2Cj%7D%5Cpi_%7Bij%7DC_%7Bij%7D%7D%7Bv_%7BT%7D%7D
+"N_{ST}=\\frac{\\sum_{i,j}\\pi_{ij}C_{ij}}{v_{T}}")  
 
-La diferencia entre \(G_{ST}\) y \(N_{ST}\) es que \(N_{ST}\) toma en
-cuenta las diferencias entre los haplotipos (\(\pi\)), mientras que
-\(G_{ST}\) solo toma en cuenta las frecuencias.
+La diferencia entre
+![G\_{ST}](https://latex.codecogs.com/png.latex?G_%7BST%7D "G_{ST}") y
+![N\_{ST}](https://latex.codecogs.com/png.latex?N_%7BST%7D "N_{ST}") es
+que ![N\_{ST}](https://latex.codecogs.com/png.latex?N_%7BST%7D "N_{ST}")
+toma en cuenta las diferencias entre los haplotipos
+(![\\pi](https://latex.codecogs.com/png.latex?%5Cpi "\\pi")), mientras
+que ![G\_{ST}](https://latex.codecogs.com/png.latex?G_%7BST%7D "G_{ST}")
+solo toma en cuenta las frecuencias.
 
 <p align="center">
 
