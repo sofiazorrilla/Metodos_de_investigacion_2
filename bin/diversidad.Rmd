@@ -1,0 +1,26 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(adegenet)
+
+nuSSR <- adegenet::read.structure('../archivos_entrada/nuc_mod.stru',  onerowperind = F, n.ind = 211, n.loc = 10, col.lab = 1, col.pop = 2, col.others = F, row.marknames = 0)
+```
+
+```{r}
+
+library(tidyverse)
+library(hierfstat)
+
+nu_hierfstat <- genind2hierfstat(nuSSR)
+allelic.richness(nu_hierfstat)$Ar %>% colMeans()
+sum_pop <- seppop(nuSSR) 
+
+
+lapply(sum_pop,function(x)genind2hierfstat(x) %>% basic.stats(diploid = TRUE, digits = 2))
+lapply(sum_pop,function(x)genind2hierfstat(x) %>% allelic.richness(diploid = TRUE))
+
+```
+
