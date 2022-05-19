@@ -12,7 +12,58 @@ Análisis de microsatélites
 
 ## Diversidad genética
 
-### Arlequin
+
+### Genalex
+
+Una opción para el cálculo de estadísticos básicos de genética de poblaciones con datos de microsatélites es Genalex. Las funciones importantes de este programa son:
+
+1. Permite hacer diferentes cálculos en un solo programa
+2. Permite exportar los datos a diferentes formatos para poder utilizar otros programas
+
+En este taller solo vamos a calcular un par de cosas pero en el [manual](programas/GenAlEx6.51b2/QuickStarttoGenAlEx6.5.pdf) pueden encontrar más información de sus funciones.
+
+#### Formato de entrada
+
+Busquen el archivo de nu_genalex.xls en su carpeta de archivos_entrada y observen el formato de entrada para utilizar GenAlEx
+
+![](imagenes/Genalex/G0.jpg)
+
+Los números en la primera fila representan el número de loci, número de individuos (total), número de poblaciones, numero de individuos por población, número de regiones y número de individuos por región.
+
+La segunda fila indica los nombres de las poblaciones y las regiones.
+
+Después sigue una matriz de indiviudos x loci en la que se observan los alelos para cada individuo.
+
+#### Activar Genalex
+
+Genalex se activa como un add-in en Excel. **(Opciones)>>Add-ins>>Manage>>Browse**
+
+![](imagenes/Genalex/G1.jpg)
+![](imagenes/Genalex/G2.jpg)
+![](imagenes/Genalex/G3.jpg)
+![](imagenes/Genalex/G4.jpg)
+
+Seleccionar el archivo ejecutable de GenAlEx en la carpeta de programas. Si es exitoso debería aparecer una nueva pestaña en la barra de herramientas de Excel.
+
+![](imagenes/Genalex/G5.jpg)
+
+#### Análisis
+
+En este ejemplo vamos a calcular la heterocigocidad observada y esperada para cada una de las poblaciones.
+
+En la pestaña de análisis basados en frecuencias, seleccionamos la opción de frecuencias.
+
+![](imagenes/Genalex/G6.jpg)
+
+Aparece una ventana con la descripción de las poblaciones.
+
+![](imagenes/Genalex/G7.jpg)
+
+Seleccionamos los análisis a realizar y los corremos.
+
+![](imagenes/Genalex/G8.jpg)
+
+### Arlequin (diversidad)
 
     ## [Profile]
     ##      Title="cp_Qhum"
@@ -25,7 +76,7 @@ Análisis de microsatélites
     ##      MissingData='?'
     ##      CompDistMatrix=1
     ## [Data]
-    ##   [[Samples]]   #Data for 5Loci: cmcs2 cmcs14 cmcs7 cmcs6a cmcs3a 
+    ##   [[Samples]]   #Data for 5Loci: cmcs2 cmcs14 cmcs7 cmcs6a cmcs3a
     ##      SampleName="viro"
     ##      SampleSize=10
     ##      SampleData=     {
@@ -49,7 +100,7 @@ Partes del archivo de entrada de Arlequin:
 
 1.  Descripción de los datos (las más importantes se mencionan a
     continuación):
-    
+
     1.  Título del proyecto
     2.  Número de poblaciones
     3.  Tipo de datos (haplotípicos o genotípicos)
@@ -58,13 +109,13 @@ Partes del archivo de entrada de Arlequin:
     6.  Caracter para datos faltantes
 
 2.  Datos organizados por “población”
-    
+
     1.  Nombre de la población
     2.  Número de individuos
     3.  Datos:
-    
+
     <!-- end list -->
-    
+
       - La primera columna contiene la etiqueta de cada individuo
       - La segunda la frecuencia del genotipo
       - Las columnas siguientes contienen los datos por cada locus
@@ -251,13 +302,13 @@ que la configuración inicial puede tener sobre el resultado final.
 </p>
 
   - *Tipo de modelo de ancestría*:
-    
+
     1.  **Sin mezcla (no admixture):** En este modelo los individuos de
         asignan de manera discreta a una u otra población. Se parte de
         una probabilidad inicial para cada población es de 1/K. El
         resultado reporta la probabilidad posterior de que el individuo
         pertenenezca a la población a la que fue asignado.
-    
+
     2.  **Con mezcla (admixture):** Los individuos pueden tener
         ancestría mezclada. Se modela diciendo que el individuo “i”
         heredó una fracción de su genoma de ancestros de la población
@@ -270,10 +321,10 @@ que la configuración inicial puede tener sobre el resultado final.
 </p>
 
   - *Modelos de frecuencias alélicas*
-    
+
     1.  **No correlacionadas:** Asume que las frecuencias alélicas en
         las poblaciones son independientes.
-    
+
     2.  **Correlacionadas:** Supone que las frecuencias alélicas de
         distintas poblaciones serán muy similares (puede ser por
         migración o por ancestría compartida).
@@ -285,12 +336,12 @@ que la configuración inicial puede tener sobre el resultado final.
 </p>
 
   - *Uso de información a priori*
-    
+
     1.  **LOCPRIOR models**: Usar los sitios de muestreo como
         información a priori para ayudar en el proceso de agrupamiento.
         Esta opción se puede considerar cuando la estructura es muy
         débil.
-    
+
     2.  **USEPOPINFO model**: utiliza los sitios de muestreo para buscar
         migrantes o híbridos. También se puede usar para determinar a
         priori la ancestría de algunos individuos y ayudar en el proceso
@@ -403,13 +454,13 @@ de diferenciación (Nst y Gst).
 Se obtiene a partir de buscar la diferencia entre la diversidad total y
 la que está dentro de cada población, dividida por la diversidad total.
 
-  
-![\\frac{v\_{T}-v\_{S}}{v\_{T}}](https://latex.codecogs.com/png.latex?%5Cfrac%7Bv_%7BT%7D-v_%7BS%7D%7D%7Bv_%7BT%7D%7D
-"\\frac{v_{T}-v_{S}}{v_{T}}")  
 
-  
+![\\frac{v\_{T}-v\_{S}}{v\_{T}}](https://latex.codecogs.com/png.latex?%5Cfrac%7Bv_%7BT%7D-v_%7BS%7D%7D%7Bv_%7BT%7D%7D
+"\\frac{v_{T}-v_{S}}{v_{T}}")
+
+
 ![N\_{ST}=\\frac{\\sum\_{i,j}\\pi\_{ij}C\_{ij}}{v\_{T}}](https://latex.codecogs.com/png.latex?N_%7BST%7D%3D%5Cfrac%7B%5Csum_%7Bi%2Cj%7D%5Cpi_%7Bij%7DC_%7Bij%7D%7D%7Bv_%7BT%7D%7D
-"N_{ST}=\\frac{\\sum_{i,j}\\pi_{ij}C_{ij}}{v_{T}}")  
+"N_{ST}=\\frac{\\sum_{i,j}\\pi_{ij}C_{ij}}{v_{T}}")
 
 La diferencia entre
 ![G\_{ST}](https://latex.codecogs.com/png.latex?G_%7BST%7D "G_{ST}") y
@@ -426,18 +477,18 @@ solo toma en cuenta las frecuencias.
 
 </p>
 
-``` 
-## 226  22  0   1   2   1                                                               
-## 0                                                                                    
-## ind  cat hap                                                                         
-## qhu001   viro    1                                                                           
-## qhu002   viro    1                                                                           
+```
+## 226  22  0   1   2   1
+## 0
+## ind  cat hap
+## qhu001   viro    1
+## qhu002   viro    1
 ```
 
-    ## qhu224   chac    19                                                                          
-    ## qhu225   chac    20                                                                          
-    ## qhu226   chac    21                                                                          
-    ## END                                                                                  
+    ## qhu224   chac    19
+    ## qhu225   chac    20
+    ## qhu226   chac    21
+    ## END
     ## hap  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21
     ## 1    0   1   5   2   3   2   2   5   1   2   1   2   1   3   2   4   2   5   2   3   3
 
